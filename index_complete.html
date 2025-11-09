@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Aeronautical & Astronautical Engineering Student</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Language Toggle -->
+    <div class="language-toggle">
+        <button id="langBtn" onclick="toggleLanguage()">
+            <i class="fas fa-globe"></i> <span id="langText">EN</span>
+        </button>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span data-fr="Portfolio" data-en="Portfolio">Portfolio</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link" data-fr="Accueil" data-en="Home">Accueil</a></li>
+                <li><a href="#about" class="nav-link" data-fr="À Propos" data-en="About">À Propos</a></li>
+                <li><a href="#education" class="nav-link" data-fr="Formation" data-en="Education">Formation</a></li>
+                <li><a href="#skills" class="nav-link" data-fr="Compétences" data-en="Skills">Compétences</a></li>
+                <li><a href="#experience" class="nav-link" data-fr="Expérience" data-en="Experience">Expérience</a></li>
+                <li><a href="#projects" class="nav-link" data-fr="Projets" data-en="Projects">Projets</a></li>
+                <li><a href="#languages" class="nav-link" data-fr="Langues" data-en="Languages">Langues</a></li>
+                <li><a href="#interests" class="nav-link" data-fr="Centres d'Intérêt" data-en="Interests">Centres d'Intérêt</a></li>
+                <li><a href="#contact" class="nav-link" data-fr="Contact" data-en="Contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span data-fr="Dicko Abdramane Christ Wendbe Steve Aime" data-en="Dicko Abdramane Christ Wendbe Steve Aime">Dicko Abdramane Christ Wendbe Steve Aime</span><br>
+                    <span class="highlight" data-fr="Ingénierie Aéronautique et Astronautique" data-en="Aeronautical & Astronautical Engineering">Ingénierie Aéronautique et Astronautique</span>
+                </h1>
+                <p class="hero-subtitle" data-fr="Université Tsinghua, Chine" data-en="Tsinghua University, China">Université Tsinghua, Chine</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary" data-fr="Me Contacter" data-en="Contact Me">Me Contacter</a>
+                    <a href="#education" class="btn btn-secondary" data-fr="Mon Parcours" data-en="My Journey">Mon Parcours</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-placeholder">
+                    <img src="https://www.tsinghua.edu.cn/__local/0/38/E4/58E2A819499CDACC0CA935C986C_C94BE9BF_BC0C.png" alt="Tsinghua University Logo" style="width: 80%; height: 80%; object-fit: contain;">
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title" data-fr="À Propos de Moi" data-en="About Me">À Propos de Moi</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p data-fr="Passionné par l'aéronautique et l'astronautique, je poursuis actuellement mes études en ingénierie à l'Université Tsinghua, l'une des institutions les plus prestigieuses de Chine. Mon parcours académique, débuté au Lycée Scientifique National de Ouagadougou, m'a permis de développer une solide base en mathématiques et en physique-chimie." 
+                       data-en="Passionate about aeronautics and astronautics, I am currently pursuing my engineering studies at Tsinghua University, one of China's most prestigious institutions. My academic journey, which began at the National Scientific High School of Ouagadougou, has allowed me to develop a solid foundation in mathematics and physics-chemistry.">
+                        Passionné par l'aéronautique et l'astronautique, je poursuis actuellement mes études en ingénierie à l'Université Tsinghua, l'une des institutions les plus prestigieuses de Chine. Mon parcours académique, débuté au Lycée Scientifique National de Ouagadougou, m'a permis de développer une solide base en mathématiques et en physique-chimie.
+                    </p>
+                    <p data-fr="Mon objectif est de contribuer aux avancées technologiques dans le domaine aérospatial et de participer à des projets innovants qui repoussent les limites de l'exploration spatiale." 
+                       data-en="My goal is to contribute to technological advances in the aerospace field and participate in innovative projects that push the boundaries of space exploration.">
+                        Mon objectif est de contribuer aux avancées technologiques dans le domaine aérospatial et de participer à des projets innovants qui repoussent les limites de l'exploration spatiale.
+                    </p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <i class="fas fa-graduation-cap"></i>
+                        <h3 data-fr="Formation d'Excellence" data-en="Excellence in Education">Formation d'Excellence</h3>
+                        <p data-fr="Université Tsinghua" data-en="Tsinghua University">Université Tsinghua</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-plane"></i>
+                        <h3 data-fr="Spécialisation" data-en="Specialization">Spécialisation</h3>
+                        <p data-fr="Aéronautique & Astronautique" data-en="Aeronautics & Astronautics">Aéronautique & Astronautique</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-trophy"></i>
+                        <h3 data-fr="Bac C" data-en="Bac C">Bac C</h3>
+                        <p data-fr="Maths & Physique-Chimie" data-en="Math & Physics-Chemistry">Maths & Physique-Chimie</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title" data-fr="Formation Académique" data-en="Academic Education">Formation Académique</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fas fa-university"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-date" data-fr="En cours" data-en="Current">En cours</div>
+                        <h3 data-fr="Ingénierie Aéronautique et Astronautique" data-en="Aeronautical and Astronautical Engineering">Ingénierie Aéronautique et Astronautique</h3>
+                        <h4 data-fr="Université Tsinghua, Chine" data-en="Tsinghua University, China">Université Tsinghua, Chine</h4>
+                        <p data-fr="Formation d'excellence en ingénierie aérospatiale dans l'une des meilleures universités d'Asie. Études approfondies en mécanique des fluides, propulsion, structures aéronautiques et systèmes spatiaux." 
+                           data-en="Excellence training in aerospace engineering at one of Asia's top universities. In-depth studies in fluid mechanics, propulsion, aeronautical structures, and space systems.">
+                            Formation d'excellence en ingénierie aérospatiale dans l'une des meilleures universités d'Asie. Études approfondies en mécanique des fluides, propulsion, structures aéronautiques et systèmes spatiaux.
+                        </p>
+                        <div class="timeline-tags">
+                            <span class="tag" data-fr="Aérodynamique" data-en="Aerodynamics">Aérodynamique</span>
+                            <span class="tag" data-fr="Propulsion" data-en="Propulsion">Propulsion</span>
+                            <span class="tag" data-fr="Systèmes Spatiaux" data-en="Space Systems">Systèmes Spatiaux</span>
+                            <span class="tag" data-fr="Mécanique des Fluides" data-en="Fluid Mechanics">Mécanique des Fluides</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fas fa-school"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">3 <span data-fr="ans" data-en="years">ans</span></div>
+                        <h3 data-fr="Baccalauréat Série C" data-en="Baccalaureate Series C">Baccalauréat Série C</h3>
+                        <h4 data-fr="Lycée Scientifique National de Ouagadougou, Burkina Faso" data-en="National Scientific High School of Ouagadougou, Burkina Faso">Lycée Scientifique National de Ouagadougou, Burkina Faso</h4>
+                        <p data-fr="Formation scientifique rigoureuse avec spécialisation en mathématiques et physique-chimie. Développement de solides compétences analytiques et de résolution de problèmes. Mention Très Bien avec 17,80/20." 
+                           data-en="Rigorous scientific training with specialization in mathematics and physics-chemistry. Development of strong analytical and problem-solving skills. Very Good mention with 17.80/20.">
+                            Formation scientifique rigoureuse avec spécialisation en mathématiques et physique-chimie. Développement de solides compétences analytiques et de résolution de problèmes. Mention Très Bien avec 17,80/20.
+                        </p>
+                        <div class="timeline-tags">
+                            <span class="tag" data-fr="Mathématiques" data-en="Mathematics">Mathématiques</span>
+                            <span class="tag" data-fr="Physique" data-en="Physics">Physique</span>
+                            <span class="tag" data-fr="Chimie" data-en="Chemistry">Chimie</span>
+                            <span class="tag" data-fr="Sciences" data-en="Sciences">Sciences</span>
+                            <span class="tag" data-fr="Mention Très Bien" data-en="Very Good Mention">Mention Très Bien</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">6 <span data-fr="ans" data-en="years">ans</span></div>
+                        <h3 data-fr="Collège d'Enseignement Général" data-en="General Education College">Collège d'Enseignement Général</h3>
+                        <h4 data-fr="Petit Séminaire de Pâbre et Petit Séminaire de Kaya, Burkina Faso" data-en="Petit Séminaire de Pâbre and Petit Séminaire de Kaya, Burkina Faso">Petit Séminaire de Pâbre et Petit Séminaire de Kaya, Burkina Faso</h4>
+                        <p data-fr="Formation générale complète avec développement des compétences fondamentales en français, mathématiques, sciences et histoire-géographie. Acquisition d'une solide base éducative et développement personnel." 
+                           data-en="Complete general education with development of fundamental skills in French, mathematics, sciences, and history-geography. Acquisition of a solid educational foundation and personal development.">
+                            Formation générale complète avec développement des compétences fondamentales en français, mathématiques, sciences et histoire-géographie. Acquisition d'une solide base éducative et développement personnel.
+                        </p>
+                        <div class="timeline-tags">
+                            <span class="tag" data-fr="Français" data-en="French">Français</span>
+                            <span class="tag" data-fr="Mathématiques" data-en="Mathematics">Mathématiques</span>
+                            <span class="tag" data-fr="Sciences" data-en="Sciences">Sciences</span>
+                            <span class="tag" data-fr="Histoire-Géographie" data-en="History-Geography">Histoire-Géographie</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title" data-fr="Compétences Techniques" data-en="Technical Skills">Compétences Techniques</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fas fa-calculator"></i> <span data-fr="Sciences Fondamentales" data-en="Fundamental Sciences">Sciences Fondamentales</span></h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span data-fr="Mathématiques Avancées" data-en="Advanced Mathematics">Mathématiques Avancées</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span data-fr="Physique" data-en="Physics">Physique</span>
+                            <span>88%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 88%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span data-fr="Chimie" data-en="Chemistry">Chimie</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-rocket"></i> <span data-fr="Ingénierie Aérospatiale" data-en="Aerospace Engineering">Ingénierie Aérospatiale</span></h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span data-fr="Aérodynamique" data-en="Aerodynamics">Aérodynamique</span>
+                            <span>82%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 82%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span data-fr="Mécanique des Fluides" data-en="Fluid Mechanics">Mécanique des Fluides</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span data-fr="Structures Aéronautiques" data-en="Aeronautical Structures">Structures Aéronautiques</span>
+                            <span>78%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 78%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-laptop-code"></i> <span data-fr="Outils Techniques" data-en="Technical Tools">Outils Techniques</span></h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>MATLAB</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 75%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Python</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 70%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>CAD/CAO</span>
+                            <span>68%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 68%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-brain"></i> <span data-fr="Compétences Transversales" data-en="Soft Skills">Compétences Transversales</span></h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span data-fr="Résolution de Problèmes" data-en="Problem Solving">Résolution de Problèmes</span>
+                            <span>92%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 92%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span data-fr="Travail d'Équipe" data-en="Teamwork">Travail d'Équipe</span>
+                            <span>88%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 88%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span data-fr="Pensée Analytique" data-en="Analytical Thinking">Pensée Analytique</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title" data-fr="Expérience" data-en="Experience">Expérience</h2>
+            <div class="experience-grid">
+                <div class="experience-card">
+                    <div class="experience-icon">
+                        <i class="fas fa-flask"></i>
+                    </div>
+                    <h3 data-fr="Projets de Recherche" data-en="Research Projects">Projets de Recherche</h3>
+                    <p class="experience-location" data-fr="Université Tsinghua" data-en="Tsinghua University">Université Tsinghua</p>
+                    <p data-fr="Participation à des projets de recherche en aérodynamique et systèmes de propulsion. Analyse de données et simulations numériques." 
+                       data-en="Participation in research projects on aerodynamics and propulsion systems. Data analysis and numerical simulations.">
+                        Participation à des projets de recherche en aérodynamique et systèmes de propulsion. Analyse de données et simulations numériques.
+                    </p>
+                </div>
+
+                <div class="experience-card">
+                    <div class="experience-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3 data-fr="Travaux Pratiques" data-en="Practical Work">Travaux Pratiques</h3>
+                    <p class="experience-location" data-fr="Laboratoires Universitaires" data-en="University Laboratories">Laboratoires Universitaires</p>
+                    <p data-fr="Réalisation d'expériences en mécanique des fluides, tests en soufflerie et analyse de structures aéronautiques." 
+                       data-en="Conducting experiments in fluid mechanics, wind tunnel testing, and analysis of aeronautical structures.">
+                        Réalisation d'expériences en mécanique des fluides, tests en soufflerie et analyse de structures aéronautiques.
+                    </p>
+                </div>
+
+                <div class="experience-card">
+                    <div class="experience-icon">
+                        <i class="fas fa-project-diagram"></i>
+                    </div>
+                    <h3 data-fr="Projets d'Équipe" data-en="Team Projects">Projets d'Équipe</h3>
+                    <p class="experience-location" data-fr="Cours d'Ingénierie" data-en="Engineering Courses">Cours d'Ingénierie</p>
+                    <p data-fr="Collaboration sur des projets de conception d'aéronefs et de systèmes spatiaux avec des équipes multidisciplinaires." 
+                       data-en="Collaboration on aircraft design and space systems projects with multidisciplinary teams.">
+                        Collaboration sur des projets de conception d'aéronefs et de systèmes spatiaux avec des équipes multidisciplinaires.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title" data-fr="Projets Académiques" data-en="Academic Projects">Projets Académiques</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-plane-departure"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 data-fr="Conception d'Aile d'Avion" data-en="Aircraft Wing Design">Conception d'Aile d'Avion</h3>
+                        <p data-fr="Projet de conception et optimisation d'une aile d'avion utilisant des principes d'aérodynamique avancée et des simulations CFD." 
+                           data-en="Design and optimization project for an aircraft wing using advanced aerodynamics principles and CFD simulations.">
+                            Projet de conception et optimisation d'une aile d'avion utilisant des principes d'aérodynamique avancée et des simulations CFD.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">CFD</span>
+                            <span class="tag" data-fr="Aérodynamique" data-en="Aerodynamics">Aérodynamique</span>
+                            <span class="tag">MATLAB</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-satellite"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 data-fr="Analyse de Trajectoire Spatiale" data-en="Space Trajectory Analysis">Analyse de Trajectoire Spatiale</h3>
+                        <p data-fr="Étude et calcul de trajectoires orbitales pour missions spatiales, incluant les manœuvres de transfert et les corrections de trajectoire." 
+                           data-en="Study and calculation of orbital trajectories for space missions, including transfer maneuvers and trajectory corrections.">
+                            Étude et calcul de trajectoires orbitales pour missions spatiales, incluant les manœuvres de transfert et les corrections de trajectoire.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag" data-fr="Mécanique Orbitale" data-en="Orbital Mechanics">Mécanique Orbitale</span>
+                            <span class="tag">Python</span>
+                            <span class="tag" data-fr="Simulation" data-en="Simulation">Simulation</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-wind"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 data-fr="Étude en Soufflerie" data-en="Wind Tunnel Study">Étude en Soufflerie</h3>
+                        <p data-fr="Expérimentation et analyse des forces aérodynamiques sur différents profils d'ailes en conditions contrôlées de soufflerie." 
+                           data-en="Experimentation and analysis of aerodynamic forces on different wing profiles under controlled wind tunnel conditions.">
+                            Expérimentation et analyse des forces aérodynamiques sur différents profils d'ailes en conditions contrôlées de soufflerie.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag" data-fr="Expérimental" data-en="Experimental">Expérimental</span>
+                            <span class="tag" data-fr="Analyse de Données" data-en="Data Analysis">Analyse de Données</span>
+                            <span class="tag" data-fr="Aérodynamique" data-en="Aerodynamics">Aérodynamique</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Languages Section -->
+    <section id="languages" class="languages">
+        <div class="container">
+            <h2 class="section-title" data-fr="Langues" data-en="Languages">Langues</h2>
+            <div class="languages-grid">
+                <div class="language-card">
+                    <div class="language-icon">
+                        <i class="fas fa-flag"></i>
+                    </div>
+                    <h3 data-fr="Français" data-en="French">Français</h3>
+                    <p class="language-level" data-fr="Langue Maternelle" data-en="Native Language">Langue Maternelle</p>
+                    <div class="language-bar">
+                        <div class="language-progress" style="width: 100%"></div>
+                    </div>
+                </div>
+
+                <div class="language-card">
+                    <div class="language-icon">
+                        <i class="fas fa-flag-usa"></i>
+                    </div>
+                    <h3 data-fr="Anglais" data-en="English">Anglais</h3>
+                    <p class="language-level" data-fr="Courant" data-en="Fluent">Courant</p>
+                    <div class="language-bar">
+                        <div class="language-progress" style="width: 85%"></div>
+                    </div>
+                </div>
+
+                <div class="language-card">
+                    <div class="language-icon">
+                        <i class="fas fa-flag"></i>
+                    </div>
+                    <h3 data-fr="Chinois (Mandarin)" data-en="Chinese (Mandarin)">Chinois (Mandarin)</h3>
+                    <p class="language-level" data-fr="Intermédiaire" data-en="Intermediate">Intermédiaire</p>
+                    <div class="language-bar">
+                        <div class="language-progress" style="width: 60%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interests Section -->
+    <section id="interests" class="interests">
+        <div class="container">
+            <h2 class="section-title" data-fr="Centres d'Intérêt" data-en="Interests">Centres d'Intérêt</h2>
+            <div class="interests-grid">
+                <div class="interest-card">
+                    <i class="fas fa-space-shuttle"></i>
+                    <h3 data-fr="Exploration Spatiale" data-en="Space Exploration">Exploration Spatiale</h3>
+                    <p data-fr="Passionné par les missions spatiales et les avancées technologiques dans l'astronautique." 
+                       data-en="Passionate about space missions and technological advances in astronautics.">
+                        Passionné par les missions spatiales et les avancées technologiques dans l'astronautique.
+                    </p>
+                </div>
+
+                <div class="interest-card">
+                    <i class="fas fa-book"></i>
+                    <h3 data-fr="Sciences & Technologies" data-en="Science & Technology">Sciences & Technologies</h3>
+                    <p data-fr="Lecture d'articles scientifiques et suivi des innovations dans le domaine aérospatial." 
+                       data-en="Reading scientific articles and following innovations in the aerospace field.">
+                        Lecture d'articles scientifiques et suivi des innovations dans le domaine aérospatial.
+                    </p>
+                </div>
+
+                <div class="interest-card">
+                    <i class="fas fa-plane"></i>
+                    <h3 data-fr="Aviation" data-en="Aviation">Aviation</h3>
+                    <p data-fr="Intérêt pour l'histoire de l'aviation et les développements des aéronefs modernes." 
+                       data-en="Interest in aviation history and modern aircraft developments.">
+                        Intérêt pour l'histoire de l'aviation et les développements des aéronefs modernes.
+                    </p>
+                </div>
+
+                <div class="interest-card">
+                    <i class="fas fa-code"></i>
+                    <h3 data-fr="Programmation" data-en="Programming">Programmation</h3>
+                    <p data-fr="Développement de compétences en programmation pour simulations et analyses techniques." 
+                       data-en="Developing programming skills for simulations and technical analyses.">
+                        Développement de compétences en programmation pour simulations et analyses techniques.
+                    </p>
+                </div>
+
+                <div class="interest-card">
+                    <i class="fas fa-globe-asia"></i>
+                    <h3 data-fr="Cultures Internationales" data-en="International Cultures">Cultures Internationales</h3>
+                    <p data-fr="Découverte de nouvelles cultures et échanges interculturels en Chine." 
+                       data-en="Discovering new cultures and intercultural exchanges in China.">
+                        Découverte de nouvelles cultures et échanges interculturels en Chine.
+                    </p>
+                </div>
+
+                <div class="interest-card">
+                    <i class="fas fa-futbol"></i>
+                    <h3 data-fr="Sports" data-en="Sports">Sports</h3>
+                    <p data-fr="Pratique régulière d'activités sportives pour maintenir un équilibre vie-études. Membre actif du club de basketball et volleyball." 
+                       data-en="Regular sports activities to maintain a healthy study-life balance. Active member of basketball and volleyball clubs.">
+                        Pratique régulière d'activités sportives pour maintenir un équilibre vie-études. Membre actif du club de basketball et volleyball.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title" data-fr="Me Contacter" data-en="Contact Me">Me Contacter</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div class="contact-item-content">
+                            <h3>Email</h3>
+                            <p>stevedicko@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div class="contact-item-content">
+                            <h3 data-fr="Téléphone" data-en="Phone">Téléphone</h3>
+                            <p>+86 159 5271 7063</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="contact-item-content">
+                            <h3 data-fr="Localisation" data-en="Location">Localisation</h3>
+                            <p data-fr="Pékin, Chine" data-en="Beijing, China">Pékin, Chine</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <div class="contact-item-content">
+                            <h3>LinkedIn</h3>
+                            <p>linkedin.com/in/dicko-steve</p>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name" data-fr="Nom" data-en="Name">Nom</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject" data-fr="Sujet" data-en="Subject">Sujet</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn" data-fr="Envoyer le Message" data-en="Send Message">Envoyer le Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="social-links">
+            <a href="#" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" class="social-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            <a href="#" class="social-link" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-link" aria-label="Email"><i class="fas fa-envelope"></i></a>
+        </div>
+        <p class="footer-text" data-fr="© 2024 Portfolio - Étudiant en Ingénierie Aéronautique et Astronautique. Tous droits réservés." 
+           data-en="© 2024 Portfolio - Aeronautical and Astronautical Engineering Student. All rights reserved.">
+            © 2024 Portfolio - Étudiant en Ingénierie Aéronautique et Astronautique. Tous droits réservés.
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
