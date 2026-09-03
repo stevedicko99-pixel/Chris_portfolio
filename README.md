@@ -1,6 +1,6 @@
 # Portfolio - Étudiant en Ingénierie Aéronautique et Astronautique
 
-Portfolio professionnel bilingue (Français/Anglais) pour un étudiant en ingénierie aéronautique et astronautique à l'Université Tsinghua.
+Portfolio professionnel bilingue (Français/Anglais) pour un étudiant en ingénierie aéronautique et astronautique à l'Université .
 
 ## 🚀 Caractéristiques
 
